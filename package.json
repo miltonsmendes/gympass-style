@@ -26,6 +26,7 @@
     "bcryptjs": "2.4.3",
     "dotenv": "16.4.5",
     "fastify": "^4.28.0",
+    "gympass-style-nodejs": "file:",
     "zod": "3.23.8"
   }
 }
