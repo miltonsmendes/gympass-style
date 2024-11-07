@@ -1,11 +1,10 @@
-version: '3'
 
 services:
-  gympass-style-nodejs:
+  api-solid-pg:
     image: bitnami/postgresql
     ports:
-      - 5432:5432
+      - "5432:5432"
     environment:
-      - POSTGRESQL_USERNAME=docker
-      - POSTGRESQL_PASSWORD=docker
-      - POSTGRESQL_DATABASE=apigympass
+      - POSTGRES_USER=docker
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DB=apigympass
